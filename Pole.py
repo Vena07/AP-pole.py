@@ -1,9 +1,6 @@
 
-pole = ["A","B","C","D","E","F"]
+auta = ["Ford", "Volvo" , "BMW" , "Audi"] 
+auta.remove("Audi")
 
-
-
-for i in pole:
-    print(f"{pole}: {i}")
-
-    
+for x in range(len(auta)):
+    print(f"{x+1}: {auta[x]}")
